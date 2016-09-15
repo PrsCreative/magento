@@ -41,5 +41,7 @@ Inside that file, you will find the <VirtualHost *:80> block on line 1. Inside o
 
 $ sudo service apache2 restart
 
+# Ubuntu Firewall: Apache only visible on lan
+$ sudo ufw allow from 192.168.1.0/24 to any port 80
 
 # Thank you very much..
