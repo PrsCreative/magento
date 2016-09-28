@@ -14,7 +14,7 @@ $ sudo service apache2 restart
 
 
 # Install PHP
-$ sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+$ sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
 
 $ sudo apt-get install php5-curl
 
